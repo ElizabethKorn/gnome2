@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Liza <lkorn036@gmail.com>",
   "license": "MIT",
+  "homepage": "https://elizabethkorn.github.io/gnome2",
   "dependencies": {
     "@babel/core": "^7.27.1",
     "@babel/preset-env": "^7.27.1",
