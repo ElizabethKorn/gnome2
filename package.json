@@ -17,6 +17,7 @@
   "devDependencies": {
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "style-loader": "^4.0.0",
     "webpack-dev-server": "^5.2.1"
   },
@@ -24,6 +25,8 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   }
 }
